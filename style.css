@@ -1,0 +1,77 @@
+.section {
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px    ;
+}
+
+.Details {
+
+    width: 40%;
+}
+
+.memory , .storage , .deliOpt {
+
+    display: flex;
+
+    gap: 15px;
+}
+
+.specs {
+
+    border: 1px black solid;
+    padding: 1px;
+
+    border-radius: 3px;
+}
+
+.specs:hover {
+
+    background-color: black;
+
+    color: aliceblue;
+
+    cursor: pointer;
+    
+}
+
+.priceDetails {
+
+    display: flex;
+
+    gap: 15px ;
+
+    margin-top: 75px;
+}
+
+.ul1, .ul2 {
+    list-style: none;
+}
+
+.ul1 li , .ul2 li {
+
+    border-bottom: 1px solid gray;
+}
+
+#promoInput  {
+
+    height: 25px;
+}
+
+#promoBtn {
+
+    background-color: red;
+    color: aliceblue;
+    height: 30px;
+
+}
+
+.grandTotal {
+
+    display: flex;
+    justify-content: center;
+
+    border-top: 3px solid black;
+
+    margin-top: 60px;
+}
